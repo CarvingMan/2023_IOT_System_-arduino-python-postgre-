@@ -1,0 +1,2 @@
+self.conn = psycopg2.connect(host='localhost', database='kijun', user='postgres', password='password', port='5432') # DB connection
+데이터베이스 연결시 database이름과 password가 위와같이 설정되어있습니다.
